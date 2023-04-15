@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="generator" content="Primo" />
+    <title>African Hope </title><!-- HEAD_svelte-g2vabe_START -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css");
+
+        html {
+
+            --color-yellow: rgb(238, 194, 0);
+
+            /* Colors */
+            --color-accent: rgb(111, 129, 178);
+            --color-dark: #3E3D43;
+            --color-light: #FCFCFD;
+            --color-shade: #CBCACE;
+            --color-white: #FFF;
+
+            /* Default property values */
+            --background: var(--color-white);
+            --color: var(--color-dark);
+            --padding: 2rem 2rem;
+            --border: 1px solid var(--color-shade);
+            --box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+            --border-radius: 8px;
+            --max-width: 1200px;
+            --border-color: var(--color-shade);
+            --transition-time: 0.1s;
+            --transition: var(--transition-time) color,
+                var(--transition-time) background-color,
+                var(--transition-time) border-color,
+                var(--transition-time) text-decoration-color,
+                var(--transition-time) box-shadow, var(--transtion-time) transform;
+
+            /* Elements */
+            --heading-color: #252428;
+            --heading-font-size: 39px;
+            --heading-line-height: 48px;
+            --heading-font-weight: 700;
+
+            --subheading-color: #3E3D43;
+
+            --button-color: white;
+            --button-background: var(--color-accent);
+            --button-border-radius: 4px;
+            --button-padding: 8px 20px;
+
+        }
+
+        #page {
+            font-family: 'General Sans', sans-serif;
+            color: var(--color);
+            font-size: 1rem;
+            background: var(--background);
+        }
+
+        .content {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: var(--padding);
+        }
+
+        .content img {
+            width: 100%;
+            max-width: 600px;
+            box-shadow: var(--box-shadow);
+            border-radius: var(--border-radius);
+            margin-bottom: 1.5rem;
+        }
+
+        .content p {
+            padding: 1rem 0;
+            line-height: 1.5;
+            font-size: 1.25rem;
+            max-width: 600px;
+        }
+
+        .content h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .content h2 {
+            font-size: 2.25rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+
+        .content h3 {
+            font-size: 1.75rem;
+            font-weight: 400;
+            margin-bottom: 0.25rem;
+        }
+
+        .content ul {
+            list-style: disc;
+            padding: 0.5rem 0;
+            padding-left: 1.25rem;
+        }
+
+        .content ol {
+            list-style: decimal;
+            padding: 0.5rem 0;
+            padding-left: 1.25rem;
+        }
+
+        .content blockquote {
+            padding: 2rem;
+            box-shadow: var(--box-shadow);
+            border-radius: var(--border-radius);
+        }
+
+        .section-container {
+            max-width: var(--max-width, 1200px);
+            margin: 0 auto;
+            padding: 3rem var(--padding, 1rem);
+        }
+
+        .body {
+            font-size: var(--body-font-size);
+        }
+
+        .heading {
+            font-size: var(--heading-font-size, 49px);
+            line-height: var(--heading-line-height, 1);
+            font-weight: var(--heading-font-weight, 700);
+            color: var(--heading-color, #252428);
+        }
+
+        .button {
+            color: var(--color-white, white);
+            background: var(--color-accent, #154BF4);
+            border: 2px solid transparent;
+            border-radius: 5px;
+            padding: 8px 20px;
+            transition: var(--transition);
+        }
+
+        .button:hover {
+            box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .button.inverted {
+            background: var(--color-white);
+            color: var(--color-accent);
+            border-color: var(--color-accent);
+
+        }
+
+
+        .link {
+            font-weight: 500;
+            color: var(--color);
+            border-bottom: 2px solid var(--link-color);
+            transition: var(--transition);
+        }
+
+
+        .link:hover {
+            border-color: transparent;
+        }
+    </style><!-- HEAD_svelte-g2vabe_END -->
+    <style>
+        @import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css");
+
+        header.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+            border-bottom: var(--border)
+        }
+
+        .section-container.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem
+        }
+
+        .logo.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-right: 1rem
+        }
+
+        nav.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem
+        }
+
+        nav.svelte-nh5dpg a.link.svelte-nh5dpg.svelte-nh5dpg {
+            display: none;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.1s
+        }
+
+        nav.svelte-nh5dpg a.link.svelte-nh5dpg.svelte-nh5dpg:hover {
+            border-color: var(--color-accent)
+        }
+
+        nav.svelte-nh5dpg button#close.svelte-nh5dpg.svelte-nh5dpg {
+            display: none
+        }
+
+        nav.desktop-nav.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+            display: none;
+            margin-left: auto
+        }
+
+        .link-item.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            color: var(--color)
+        }
+
+        .link-item.svelte-nh5dpg:hover .dropdown.svelte-nh5dpg.svelte-nh5dpg {
+            display: grid
+        }
+
+        .link-item.svelte-nh5dpg .dropdown.svelte-nh5dpg.svelte-nh5dpg {
+            gap: 0.5rem;
+            place-items: flex-start;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            padding: 0.5rem 1rem;
+            box-shadow: var(--box-shadow);
+            border-radius: var(--border-radius);
+            background: var(--background);
+            margin-top: 1rem;
+            display: none
+        }
+
+        .link-item.svelte-nh5dpg .dropdown.svelte-nh5dpg a.svelte-nh5dpg {
+            white-space: nowrap
+        }
+
+        .link-item.svelte-nh5dpg .dropdown.svelte-nh5dpg.svelte-nh5dpg:before {
+            content: "";
+            width: 100%;
+            height: 1rem;
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 100%
+        }
+
+        nav#mobile-nav.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+            position: absolute;
+            flex-direction: column;
+            text-align: center;
+            background-color: var(--background-color, white);
+            box-shadow: var(--box-shadow);
+            border-radius: var(--border-radius);
+            left: 0.5rem;
+            top: 0.5rem;
+            right: 0.5rem;
+            padding: 2rem
+        }
+
+        nav#mobile-nav.svelte-nh5dpg a.logo.svelte-nh5dpg.svelte-nh5dpg {
+            margin-right: 0
+        }
+
+        nav#mobile-nav.svelte-nh5dpg a.link.svelte-nh5dpg.svelte-nh5dpg {
+            display: block
+        }
+
+        nav#mobile-nav.svelte-nh5dpg button#close.svelte-nh5dpg.svelte-nh5dpg {
+            display: block;
+            position: absolute;
+            right: 1rem;
+            top: 1rem
+        }
+
+        nav#mobile-nav.svelte-nh5dpg button#close svg.svelte-nh5dpg.svelte-nh5dpg {
+            color: var(--color-accent, #154bf4);
+            width: 1.5rem;
+            height: 1.5rem
+        }
+
+        .dropdown-item.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+            display: grid;
+            place-items: center;
+            gap: 0.75rem
+        }
+
+        .dropdown-item.svelte-nh5dpg>.link.svelte-nh5dpg.svelte-nh5dpg {
+            font-size: 1.25rem;
+            font-weight: 700
+        }
+
+        .dropdown-item.svelte-nh5dpg .dropdown.svelte-nh5dpg.svelte-nh5dpg {
+            font-size: 1.125rem;
+            display: grid;
+            gap: 0.5rem
+        }
+
+        @media(min-width: 1100px) {
+
+            #open.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg,
+            #mobile-nav.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+                display: none
+            }
+
+            nav.svelte-nh5dpg a.link.svelte-nh5dpg.svelte-nh5dpg {
+                display: inline-block
+            }
+
+            nav.desktop-nav.svelte-nh5dpg.svelte-nh5dpg.svelte-nh5dpg {
+                display: flex
+            }
+        }
+
+        img.svelte-1kgpbzn.svelte-1kgpbzn {
+            width: 100vw
+        }
+
+        .page-container.svelte-1kgpbzn.svelte-1kgpbzn {
+            padding: 0.5rem var(--padding)
+        }
+
+        .social.svelte-1kgpbzn.svelte-1kgpbzn {
+            display: flex;
+            justify-content: flex-end
+        }
+
+        .social.svelte-1kgpbzn .item span.svelte-1kgpbzn {
+            color: var(--color-accent);
+            margin-right: 0.5rem
+        }
+
+        .social.svelte-1kgpbzn .item.svelte-1kgpbzn:not(:last-child) {
+            margin-right: 2rem
+        }
+
+        .footer.svelte-7ws3nv {
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding-top: 2rem;
+            font-weight: 500
+        }
+
+        .hange.svelte-7ws3nv {
+            display: flex;
+            flex-direction: column
+        }
+    </style>
+</head>
+
+<body id="page">
+
+    <div class="section" id="section-c40e3060-4b1b-4249-9c18-408ce7d418ae">
+        <div class="component">
+            <header class="svelte-nh5dpg">
+                <div class="section-container svelte-nh5dpg"><a href="/" class="logo svelte-nh5dpg">African Hope
+                    </a>
+                    <nav class="desktop-nav svelte-nh5dpg"><a href="/" class="link svelte-nh5dpg">Welcome</a>
+                        <div class="link-item svelte-nh5dpg"><a href="/our-community" class="link svelte-nh5dpg">Our Community </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="1em" height="1em" viewBox="0 0 24 24" class="iconify iconify--akar-icons"><!-- HTML_TAG_START -->
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8" /><!-- HTML_TAG_END -->
+                            </svg>
+                            <div class="dropdown svelte-nh5dpg"><a href="/our-history" class="link svelte-nh5dpg">Our History</a><a href="/our-mission-" class="link svelte-nh5dpg">Our Mission &amp; Beliefs</a><a href="/the-board-" class="link svelte-nh5dpg">Our Board</a></div>
+                        </div>
+                        <div class="link-item svelte-nh5dpg"><a href="/our-school" class="link svelte-nh5dpg">Our School </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="1em" height="1em" viewBox="0 0 24 24" class="iconify iconify--akar-icons"><!-- HTML_TAG_START -->
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8" /><!-- HTML_TAG_END -->
+                            </svg>
+                            <div class="dropdown svelte-nh5dpg"><a href="/activities-and-events" class="link svelte-nh5dpg">Our Activities &amp; Events</a><a href="/our-stories" class="link svelte-nh5dpg">Our Stories</a></div>
+                        </div>
+                        <div class="link-item svelte-nh5dpg"><a href="/donate" class="link svelte-nh5dpg">Our Opportunities</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="1em" height="1em" viewBox="0 0 24 24" class="iconify iconify--akar-icons"><!-- HTML_TAG_START -->
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 9l8 8l8-8" /><!-- HTML_TAG_END -->
+                            </svg>
+                            <div class="dropdown svelte-nh5dpg"><a href="/donate" class="link svelte-nh5dpg">Donate</a><a href="/giving-catalogue" class="link svelte-nh5dpg">Giving Catalog</a><a href="/join-us" class="link svelte-nh5dpg">Join Us!</a></div>
+                        </div><a href="/gallery" class="link svelte-nh5dpg">Gallery</a><a href="/donate" class="link svelte-nh5dpg">Donate</a><a href="/Contact" class="link svelte-nh5dpg">Contact Us </a>
+                    </nav>
+                    <div class="call-to-action"><button id="open" aria-label="Open mobile navigation" class="svelte-nh5dpg"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.4643 17.0213H0.535714C0.239866 17.0213 0 17.3071 0 17.6596V19.3617C0 19.7142 0.239866 20 0.535714 20H19.4643C19.7601 20 20 19.7142 20 19.3617V17.6596C20 17.3071 19.7601 17.0213 19.4643 17.0213ZM19.4643 8.51064H0.535714C0.239866 8.51064 0 8.79644 0 9.14894V10.8511C0 11.2036 0.239866 11.4894 0.535714 11.4894H19.4643C19.7601 11.4894 20 11.2036 20 10.8511V9.14894C20 8.79644 19.7601 8.51064 19.4643 8.51064ZM19.4643 0H0.535714C0.239866 0 0 0.285797 0 0.638296V2.34042C0 2.69292 0.239866 2.97872 0.535714 2.97872H19.4643C19.7601 2.97872 20 2.69292 20 2.34042V0.638296C20 0.285797 19.7601 0 19.4643 0Z" fill="currentColor"></path>
+                            </svg></button></div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="section" id="section-d4d1bb72-cc6f-489d-ab48-6380d8429b81">
+        <div class="component">
+            <header><img src="https://web.archive.org/web/20210414142246im_/http://africanhopelc.com/wp-content/uploads/2017/11/AHLCWeb-1.jpg" class="svelte-1kgpbzn">
+                <div class="social page-container svelte-1kgpbzn">
+                    <div class="item svelte-1kgpbzn"><span class="fas fa-envelope svelte-1kgpbzn"></span>
+                        <a class="link" href="mailto:africanhopelc@gmail.com">Email Us</a>
+                    </div>
+                    <div class="item svelte-1kgpbzn"><span class="fab fa-facebook svelte-1kgpbzn"></span>
+                        <a class="link" href="https://www.facebook.com/africanhopelc">Follow us on Facebook</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="section" id="section-74366272-c7dc-4d68-9ea8-81a89e0b5215">
+        <div class="component">
+            <div class="section">
+                <div class="section-container content"><!-- HTML_TAG_START --><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2011/11/Christmas-performances-young-and-old-2016-672x372.jpg" alt="Children on stage "><!-- HTML_TAG_END --></div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section-86aca732-9276-4d7e-a570-f29a3955a462">
+        <div class="component">
+            <div class="section">
+                <div class="section-container content"><!-- HTML_TAG_START -->
+                    <p></p>
+                    <p></p>
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/category/activities-and-events/"><strong>ACTIVITIES AND EVENTS</strong></a></p>
+                    <h1><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2017/10/our-choir/">OUR CHOIR</a></h1>
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2017/10/our-choir/">OCTOBER 21, 2017</a> <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/author/jbaker/">AHLC WEBMASTER</a></p><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2011/11/Christmas-performances-young-and-old-2016-768x348.jpg" alt="Girls on stage 2">
+                    <p>This school year, our choir is made of 15 students that auditioned to be a part of the group. The group is special because it is motivated and student-led, and formed for the sole purpose of celebrating and worshiping together! Their colorful and vibrant cultures are represented in their original dances that they perform all over the city.</p><!-- HTML_TAG_END -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section-492e2eea-fda3-4f03-8c5d-c2890be2ff08">
+        <div class="component">
+            <div class="section">
+                <div class="section-container content"><!-- HTML_TAG_START -->
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/category/activities-and-events/"><strong>ACTIVITIES AND EVENTS</strong></a></p>
+                    <h1><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2017/03/music-classes/">MUSIC CLASSES</a></h1>
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2017/03/music-classes/">MARCH 28, 2017</a> <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/author/jbaker/">AHLC WEBMASTER</a></p><!-- HTML_TAG_END -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section-9497eb0e-6025-4b09-8674-9397a62626a8">
+        <div class="component">
+            <div class="section">
+                <div class="section-container content"><!-- HTML_TAG_START --><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2017/03/f940523b-7a26-446d-8ca8-a76ad1436da3-768x576.jpg" alt="MUSIC CLASSES"><!-- HTML_TAG_END --></div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section-d7651a57-cb6c-4fcd-b592-e0ed874948f6">
+        <div class="component">
+            <div class="section">
+                <div class="section-container content"><!-- HTML_TAG_START -->
+                    <p>In January, the music theory program that is currently&nbsp;being offered was greatly enriched by the donation of two new keyboards! Through this&nbsp;donation and the availability of a music teacher, we have the ideal opportunity to provide a larger impact academically. This sort of extra-curricular activity has the ability to bolster the self-worth of our refugee children through the expression of music.</p>
+                    <p>Our music teacher, Sarah, began volunteering at AHLC in the fall. She says, ” I am incredibly blessed to work here, where the students are eager to learn and incredibly smart! To be able to see music touch the lives of these students is a joy.</p>
+                    <p></p><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2017/03/0e6c54b3-6710-4daf-af3c-5f1d5f0d5b43-300x225.jpg" alt="Show ">
+                    <p>As for the choir she has been working with, she adds, ” They are incredibly talented, putting together pieces of music that they love, adding movement to it, and performing at a high level in front of a large audience! They have already performed twice for the public at celebrations, and will continue to do so this spring!”</p><!-- HTML_TAG_END -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section-bb0c4cc5-eed6-48d1-9cdf-62b8111ee3ff">
+        <div class="component">
+            <div class="section">
+                <div class="section-container content"><!-- HTML_TAG_START -->
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/category/activities-and-events/"><strong>ACTIVITIES AND EVENTS</strong></a></p>
+                    <h1><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2017/03/new-computers/">NEW COMPUTERS</a></h1>
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2017/03/new-computers/">MARCH 28, 2017</a> <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/author/jbaker/">AHLC WEBMASTER</a></p>
+                    <p></p><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2017/03/2b533e06-7c4c-4c9e-989c-7cc270d18513-1-768x576.jpg" alt="Computer lab">
+                    <p>Thanks to a generous donation from the Austrian Embassy, we have&nbsp;been able to purchase eleven new desktop computers with Microsoft software installed. We were also able to purchase a large TV screen for teaching demonstrations. This is a tremendous blessing because it improves the quality of the education we are able to offer the students and allows us to use more hands-on approaches.</p>
+                    <p></p><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2017/02/food-program6-672x372.jpg" alt="Girls smile ">
+                    <p></p>
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/category/activities-and-events/"><strong>ACTIVITIES AND EVENTS</strong></a></p>
+                    <h1><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2017/02/february-2017-newsletter/">FEBRUARY 2017 NEWSLETTER</a></h1>
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2017/02/february-2017-newsletter/">FEBRUARY 20, 2017</a> <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/author/jbaker/">AHLC WEBMASTER</a></p>
+                    <p></p><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2017/02/Screenshot-3-215x300.png" alt="news paper ">
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://us12.campaign-archive2.com/?u=0372bab65c8e16d8aaf996353&amp;id=74389997d4&amp;e=e63c321e65">February 2017 Newsletter</a></p>
+                    <p></p><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2016/10/Dental-hygene-practice-672x372.jpg" alt="Teeth brushing ">
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/category/activities-and-events/"><strong>ACTIVITIES AND EVENTS</strong></a></p>
+                    <h1><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2016/10/the-dentist/">THE DENTIST</a></h1>
+                    <p><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/2016/10/the-dentist/">OCTOBER 31, 2016</a> <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://web.archive.org/web/20210414142907/http://africanhopelc.com/author/jbaker/">AHLC WEBMASTER</a></p>
+                    <p></p>
+                    <p>We are so thankful for our new visiting dentist who comes often to check on our students.</p>
+                    <p></p><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2016/10/IMG-20161031-WA0001-150x150.jpg" alt="pc 1"><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2016/10/IMG-20161031-WA0000-150x150.jpg" alt="Pic 2"><img src="https://web.archive.org/web/20210414142907im_/http://africanhopelc.com/wp-content/uploads/2016/10/Teaching-about-dental-hygene-2017-150x150.jpg" alt="pic 3">
+                    <p></p>
+                    <p></p><!-- HTML_TAG_END -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section-a6e6d8ad-b68f-43a7-9491-9e367e549ea6">
+        <div class="component">
+            <section class="section-container">
+                <div class="footer svelte-7ws3nv">
+                    <div class="mateo">
+                        <p>africanhopelc@gmail.com</p>
+                        <p>(+202) 2526 1122</p>
+                    </div>
+                    <div class="hange svelte-7ws3nv">
+                        <p>Address: Corner of roads 107 and 159 (#18) Maadi, Cairo, Egypt </p>
+                        <p>We are 5 minute walk from the metro station Hadayak Al-Maadi, on the side of the Cornish.</p>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <link href="https://api.fontshare.com/css?f[]=general-sans@400,401,500,501&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script type="module">
+        const path = window.location.pathname === '/' ? '' : window.location.pathname
+        const [{
+            default: App
+        }] = await Promise.all([
+            import(path + '/_module.js')
+        ]).catch(e => console.error(e))
+        new App({
+            target: document.querySelector('body'),
+            hydrate: true,
+        })
+    </script>
+</body>
+
+</html>
