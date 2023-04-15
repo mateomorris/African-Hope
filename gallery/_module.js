@@ -4800,7 +4800,7 @@ function create_fragment$4(ctx) {
 			attr(section, "class", "section-container svelte-klavqs");
 			attr(div1, "class", "component");
 			attr(div2, "class", "section");
-			attr(div2, "id", "section-912b9438-8ed6-47c7-aff6-a288f0635d31");
+			attr(div2, "id", "section-8d5fc3bd-cd4e-4934-9634-b60a7770107a");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div2, anchor);
@@ -5444,7 +5444,7 @@ function create_fragment$5(ctx) {
 			attr(section, "class", "section-container svelte-klavqs");
 			attr(div1, "class", "component");
 			attr(div2, "class", "section");
-			attr(div2, "id", "section-8d5fc3bd-cd4e-4934-9634-b60a7770107a");
+			attr(div2, "id", "section-912b9438-8ed6-47c7-aff6-a288f0635d31");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div2, anchor);
@@ -7024,70 +7024,70 @@ function create_fragment$9(ctx) {
 					}
 				],
 				direction: "Address: Corner of roads 107 and 159 (#18) Maadi, Cairo, Egypt ",
-				heading: "African Hope 2022-2023",
+				heading: "African Hope 2021-2022",
 				gallery: [
 					{
 						"image": {
-							"alt": "First term begins",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/first day of school.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/first day of school.jpg",
-							"size": 462
-						}
-					},
-					{
-						"image": {
-							"alt": "Dismissed class by class",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/IMG-7167.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/IMG-7167.jpg",
-							"size": 502
+							"alt": "",
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0589.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0589.jpg",
+							"size": 480
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/IMG-7170.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/IMG-7170.jpg",
-							"size": 564
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0009.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0009.jpg",
+							"size": 680
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0050.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0050.jpg",
-							"size": 518
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0023.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0023.jpg",
+							"size": 499
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0067.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0067.jpg",
-							"size": 597
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0005.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0005.jpg",
+							"size": 491
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0327.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0327.jpg",
-							"size": 461
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0012.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0012.jpg",
+							"size": 495
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0494.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0494.jpg",
-							"size": 459
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0671.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0671.jpg",
+							"size": 453
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0025.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0025.jpg",
-							"size": 613
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0793.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0793.jpg",
+							"size": 819
+						}
+					},
+					{
+						"image": {
+							"alt": "",
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0748.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0748.jpg",
+							"size": 744
 						}
 					}
 				]
@@ -7206,70 +7206,70 @@ function create_fragment$9(ctx) {
 					}
 				],
 				direction: "Address: Corner of roads 107 and 159 (#18) Maadi, Cairo, Egypt ",
-				heading: "African Hope 2021-2022",
+				heading: "African Hope 2022-2023",
 				gallery: [
 					{
 						"image": {
-							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0589.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0589.jpg",
-							"size": 480
+							"alt": "First term begins",
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/first day of school.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/first day of school.jpg",
+							"size": 462
+						}
+					},
+					{
+						"image": {
+							"alt": "Dismissed class by class",
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/IMG-7167.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/IMG-7167.jpg",
+							"size": 502
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0009.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0009.jpg",
-							"size": 680
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/IMG-7170.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/IMG-7170.jpg",
+							"size": 564
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0023.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0023.jpg",
-							"size": 499
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0050.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0050.jpg",
+							"size": 518
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0005.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0005.jpg",
-							"size": 491
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0067.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0067.jpg",
+							"size": 597
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0012.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0012.jpg",
-							"size": 495
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0327.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0327.jpg",
+							"size": 461
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0671.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0671.jpg",
-							"size": 453
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0494.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0494.jpg",
+							"size": 459
 						}
 					},
 					{
 						"image": {
 							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0793.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0793.jpg",
-							"size": 819
-						}
-					},
-					{
-						"image": {
-							"alt": "",
-							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0748.jpg",
-							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0748.jpg",
-							"size": 744
+							"src": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0025.jpg",
+							"url": "https://mccvnfnyrwxpeeqqkztm.supabase.co/storage/v1/object/public/sites/africanhope2/assets/AHLC2021-0025.jpg",
+							"size": 613
 						}
 					}
 				]
