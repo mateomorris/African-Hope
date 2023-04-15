@@ -5246,9 +5246,9 @@ function create_fragment$8(ctx) {
 				direction: "Address: Corner of roads 107 and 159 (#18) Maadi, Cairo, Egypt ",
 				img: {
 					"alt": "",
-					"src": "https://web.archive.org/web/20210414142246im_/http://africanhopelc.com/wp-content/uploads/2017/11/AHLCWeb-1.jpg",
-					"url": "https://web.archive.org/web/20210414142246im_/http://africanhopelc.com/wp-content/uploads/2017/11/AHLCWeb-1.jpg",
-					"size": null
+					"src": "https://kdtzsoeklezpgshpzqtf.supabase.co/storage/v1/object/public/images/ec166307-9441-45e5-82b2-0cf10d340282/1681572393540africanhope.jpeg",
+					"url": "https://kdtzsoeklezpgshpzqtf.supabase.co/storage/v1/object/public/images/ec166307-9441-45e5-82b2-0cf10d340282/1681572393540africanhope.jpeg",
+					"size": 400
 				}
 			}
 		});
